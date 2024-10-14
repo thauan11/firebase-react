@@ -3,7 +3,7 @@ export function Loading() {
 		<div className="flex justify-center mt-[10%]">
 			<svg
 				aria-hidden="true"
-				class="w-8 h-8 text-zinc-100 animate-spin dark:text-gray-600 fill-zinc-100"
+				className="w-8 h-8 text-zinc-100 animate-spin dark:text-gray-600 fill-zinc-100"
 				viewBox="0 0 100 101"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ export function Loading() {
 					fill="currentFill"
 				/>
 			</svg>
-			<span class="sr-only">Loading...</span>
+			<span className="sr-only">Loading...</span>
 		</div>
 	);
 }
