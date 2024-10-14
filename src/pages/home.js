@@ -89,7 +89,7 @@ export function Home() {
 								<div>
 									<label htmlFor="email">E-mail: </label>
 									<input
-										className="outline-0 rounded-sm pl-2 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
+										className="outline-none rounded-sm pl-2 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
 										name="email"
 										type="text"
 										placeholder="seu@e-mail.com"
@@ -101,7 +101,7 @@ export function Home() {
 								<div className="relative">
 									<label htmlFor="password">Senha: </label>
 									<input
-										className="outline-0 rounded-sm pl-2 pr-8 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
+										className="outline-none rounded-sm pl-2 pr-8 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
 										name="password"
 										type={showPass ? "text" : "password"}
 										placeholder="******"
@@ -121,7 +121,7 @@ export function Home() {
 								<div className="relative">
 									<label htmlFor="password">Confirme a senha: </label>
 									<input
-										className="outline-0 rounded-sm pl-2 pr-8 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
+										className="outline-none rounded-sm pl-2 pr-8 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
 										name="password"
 										type={showPass ? "text" : "password"}
 										placeholder="******"
@@ -142,7 +142,7 @@ export function Home() {
 
 							<button
 								type="submit"
-								className="outline-0 bg-zinc-800 text-zinc-50 rounded-sm font-bold py-1 transition hover:bg-zinc-50 hover:text-zinc-800"
+								className="outline-none bg-zinc-800 text-zinc-50 rounded-sm font-bold py-1 transition hover:bg-zinc-50 hover:text-zinc-800"
 							>
 								Cadastrar
 							</button>
@@ -163,7 +163,7 @@ export function Home() {
 						<form className="flex flex-col" onSubmit={handleLogin}>
 							<div className="flex flex-col gap-4 mb-8">
 								<input
-									className="outline-0 rounded-sm pl-2 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
+									className="outline-none rounded-sm pl-2 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
 									name="email"
 									type="text"
 									placeholder="seu@e-mail.com"
@@ -173,7 +173,7 @@ export function Home() {
 
 								<div className="relative">
 									<input
-										className="outline-0 rounded-sm pl-2 pr-8 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
+										className="outline-none rounded-sm pl-2 pr-8 py-0.5 text-zinc-950 w-full placeholder-zinc-500"
 										name="password"
 										type={showPass ? "text" : "password"}
 										placeholder="******"
@@ -193,7 +193,7 @@ export function Home() {
 
 							<button
 								type="submit"
-								className="outline-0 bg-zinc-800 text-zinc-50 rounded-sm font-bold py-1 transition hover:bg-zinc-50 hover:text-zinc-800"
+								className="outline-none bg-zinc-800 text-zinc-50 rounded-sm font-bold py-1 transition hover:bg-zinc-50 hover:text-zinc-800"
 							>
 								Entrar
 							</button>
