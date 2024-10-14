@@ -29,3 +29,17 @@
 .border1 {
 	border: 1px solid red;
 }
+
+@keyframes cancelEdit {
+	0% {
+		overflow: hidden;
+		transform: translateX(20px);
+	}
+	100% {
+		overflow: visible;
+		transform: translatex(0);
+	}
+}
+.cancelEdit {
+	animation: .5s cancelEdit;
+}
